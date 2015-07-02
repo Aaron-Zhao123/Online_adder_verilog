@@ -1,0 +1,56 @@
+|On_line_adder_test2
+x_plus => x_plus.IN1
+x_minus => x_minus_tmp.IN1
+y_plus => y_plus.IN1
+y_minus => g_in[0].IN1
+clk => clk.IN5
+z[0] <= D_flipflop:D4.port2
+z[1] <= D_flipflop:D5.port2
+
+
+|On_line_adder_test2|full_adder:FA1
+a => Add0.IN1
+b => Add0.IN2
+cin => Add1.IN4
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|D_flipflop:D1
+clk => out~reg0.CLK
+in => out~reg0.DATAIN
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|D_flipflop:D2
+clk => out~reg0.CLK
+in => out~reg0.DATAIN
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|full_adder:FA2
+a => Add0.IN1
+b => Add0.IN2
+cin => Add1.IN4
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|D_flipflop:D3
+clk => out~reg0.CLK
+in => out~reg0.DATAIN
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|D_flipflop:D4
+clk => out~reg0.CLK
+in => out~reg0.DATAIN
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|On_line_adder_test2|D_flipflop:D5
+clk => out~reg0.CLK
+in => out~reg0.DATAIN
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Wed Jul 01 09:41:33 2015
+Quartus II 32-bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : Online_adder_test2
+Top-level Entity Name : On_line_adder_test2
+Family : Cyclone IV GX
+Total logic elements : 6
+    Total combinational functions : 4
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

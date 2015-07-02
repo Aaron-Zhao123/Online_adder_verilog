@@ -1,0 +1,4 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/testbench/memory_write(0)
+// format=bin addressradix=h dataradix=b version=1.0 wordsperline=1 noaddress
+0x
