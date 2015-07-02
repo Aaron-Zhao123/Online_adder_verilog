@@ -8,5 +8,4 @@ vmap work rtl_work
 vlog -vlog01compat -work work +incdir+H:/UROP\ research/verilog/Online_adder_test2 {H:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v}
 vlog -vlog01compat -work work +incdir+H:/UROP\ research/verilog/Online_adder_test2 {H:/UROP research/verilog/Online_adder_test2/D_flipflop.v}
 vlog -vlog01compat -work work +incdir+H:/UROP\ research/verilog/Online_adder_test2 {H:/UROP research/verilog/Online_adder_test2/full_adder.v}
-vlog -vlog01compat -work work +incdir+H:/UROP\ research/verilog/Online_adder_test2 {H:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v}
 

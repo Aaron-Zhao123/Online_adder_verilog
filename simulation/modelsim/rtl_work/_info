@@ -2,85 +2,106 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\altera\13.0\UROP\UROP research\verilog\Online_adder_test2\simulation\modelsim
+Z0 dH:\UROP research\verilog\Online_adder_test2\simulation\modelsim
 vD_flipflop
-Ib6zI=M3df[UNeBN=ZO3Lk2
+I>H18jP`0MgYSF6>WPMD:j0
 V=aG=GclHV0Wio]36ShU2C1
-Z1 dC:\altera\13.0\UROP\UROP research\verilog\Online_adder_test2\simulation\modelsim
-Z2 w1435575119
-8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v
-FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v
+Z1 dH:\UROP research\verilog\Online_adder_test2\simulation\modelsim
+w1435834505
+8H:/UROP research/verilog/Online_adder_test2/D_flipflop.v
+FH:/UROP research/verilog/Online_adder_test2/D_flipflop.v
 L0 1
-Z3 OV;L;10.1d;51
+Z2 OV;L;10.1d;51
 r1
 31
-Z4 o-vlog01compat -work work -O0
-Z5 !s92 -vlog01compat -work work {+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research} -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+H:/UROP research/verilog/Online_adder_test2} -O0
 n@d_flipflop
 !i10b 1
-!s100 ;B[hg8@54]1^E;nTF18Rc1
+!s100 cLmNVfL?TOf@XZ<dhm6Wl2
 !s85 0
-!s108 1435764181.278000
-!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v|
+!s108 1435834532.819000
+!s107 H:/UROP research/verilog/Online_adder_test2/D_flipflop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/UROP research/verilog/Online_adder_test2|H:/UROP research/verilog/Online_adder_test2/D_flipflop.v|
+!s101 -O0
+vD_flipflop_with_initial
+IE9ZCM^Jg1UWGcAFkPnhNG0
+VflK?l?2DeeGEM3_liail;1
+R1
+w1435834368
+8H:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v
+FH:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@d_flipflop_with_initial
+!i10b 1
+!s100 bXC^05?SeKS@EzP_K[eE`1
+!s85 0
+!s108 1435834533.201000
+!s107 H:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/UROP research/verilog/Online_adder_test2|H:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v|
 !s101 -O0
 vfull_adder
-ILAJEj`KFVQ8LBnKIQjN`N3
+I^=:>ZZA8l;B6@KH0<Z5>G2
 VY<ik;mLW>j9l4DLC>lZ8;0
 R1
-R2
-8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v
-FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v
+w1435575119
+8H:/UROP research/verilog/Online_adder_test2/full_adder.v
+FH:/UROP research/verilog/Online_adder_test2/full_adder.v
 L0 1
-R3
+R2
 r1
 31
+R3
 R4
-R5
 !i10b 1
-!s100 OiC7f33bD9@eP3VG8VDFj2
+!s100 lG6^jkbf5]F1oTVQfR5UT3
 !s85 0
-!s108 1435764181.188000
-!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v|
+!s108 1435834533.012000
+!s107 H:/UROP research/verilog/Online_adder_test2/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/UROP research/verilog/Online_adder_test2|H:/UROP research/verilog/Online_adder_test2/full_adder.v|
 !s101 -O0
 vOn_line_adder_test2
-IdKXQ@e[7T7:KU5kkS^_gB2
+I4lf<FinNdYPiDX4G0c1D@3
 Vm<]M90N^WHM@]1JPMmJl:2
 R1
-w1435676563
-8C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder_test2.v
-FC:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder_test2.v
+w1435834406
+8H:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v
+FH:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v
 L0 1
-R3
+R2
 r1
 31
-R4
-R5
+R3
 n@on_line_adder_test2
+R4
 !i10b 1
-!s100 aZ0hnznE[GRGcQS[U1zm21
+!s100 J6?b19oBPf[fCli6=8GdC3
 !s85 0
-!s108 1435764181.367000
-!s107 C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder_test2.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/UROP/UROP research/verilog/UROP_research|C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder_test2.v|
+!s108 1435834532.614000
+!s107 H:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/UROP research/verilog/Online_adder_test2|H:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v|
 !s101 -O0
 vtestbench
 !i10b 1
-!s100 `SLONLETjUY9<fOYkV43D0
-IOZke<2VXg6hFQNY^d1zb>0
+!s100 aVAaGDdMk9O:m1Q_C3Yi?1
+I[>H?JF[[CRMnbg4;GUblA1
 VhGfW:390DM[oDMzegDH9`2
 R1
-w1435758043
-8C:/altera/13.0/UROP/UROP research/verilog/Online_adder_test2/testbench.v
-FC:/altera/13.0/UROP/UROP research/verilog/Online_adder_test2/testbench.v
+w1435833739
+8H:/UROP research/verilog/Online_adder_test2/testbench.v
+FH:/UROP research/verilog/Online_adder_test2/testbench.v
 L0 2
-R3
+R2
 r1
 !s85 0
 31
-!s108 1435764189.085000
-!s107 C:/altera/13.0/UROP/UROP research/verilog/Online_adder_test2/testbench.v|
-!s90 -reportprogress|300|-work|work|C:/altera/13.0/UROP/UROP research/verilog/Online_adder_test2/testbench.v|
+!s108 1435834540.237000
+!s107 H:/UROP research/verilog/Online_adder_test2/testbench.v|
+!s90 -reportprogress|300|-work|work|H:/UROP research/verilog/Online_adder_test2/testbench.v|
 !s101 -O0
 o-work work -O0

@@ -16,13 +16,13 @@ cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|On_line_adder_test2|D_flipflop:D1
+|On_line_adder_test2|D_flipflop_with_initial:D1
 clk => out~reg0.CLK
 in => out~reg0.DATAIN
 out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|On_line_adder_test2|D_flipflop:D2
+|On_line_adder_test2|D_flipflop_with_initial:D2
 clk => out~reg0.CLK
 in => out~reg0.DATAIN
 out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE

@@ -1,5 +1,5 @@
 Flow report for Online_adder_test2
-Wed Jul 01 09:41:33 2015
+Thu Jul 02 11:55:11 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 01 09:41:33 2015       ;
+; Flow Status                        ; Successful - Thu Jul 02 11:55:11 2015       ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; Online_adder_test2                          ;
 ; Top-level Entity Name              ; On_line_adder_test2                         ;
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/01/2015 09:41:32 ;
+; Start date & time ; 07/02/2015 11:55:09 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Online_adder_test2  ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+--------------------+---------------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value      ; Entity Name         ; Section Id     ;
 +-------------------------------------+---------------------------------+--------------------+---------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 119004502877217.143574009207736 ; --                 ; --                  ; --             ;
+; COMPILER_SIGNATURE_ID               ; 119004502877217.143583450907012 ; --                 ; --                  ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --                 ; --                  ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>             ; --                  ; --             ;
 ; PARTITION_COLOR                     ; 16764057                        ; --                 ; On_line_adder_test2 ; Top            ;
@@ -93,7 +93,7 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 397 MB              ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 413 MB              ; 00:00:01                           ;
 ; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 

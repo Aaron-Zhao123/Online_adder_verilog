@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Online_adder_test2
-Wed Jul 01 09:41:33 2015
+Thu Jul 02 11:55:11 2015
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jul 01 09:41:33 2015       ;
+; Analysis & Synthesis Status        ; Successful - Thu Jul 02 11:55:11 2015       ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; Online_adder_test2                          ;
 ; Top-level Entity Name              ; On_line_adder_test2                         ;
@@ -165,15 +165,16 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                      ;
-+----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path       ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                  ; Library ;
-+----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
-; ../UROP_research/full_adder.v          ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/full_adder.v          ;         ;
-; ../UROP_research/D_flipflop.v          ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/D_flipflop.v          ;         ;
-; ../UROP_research/On_line_adder_test2.v ; yes             ; User Verilog HDL File  ; C:/altera/13.0/UROP/UROP research/verilog/UROP_research/On_line_adder_test2.v ;         ;
-+----------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                        ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                          ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
+; On_line_adder_test2.v            ; yes             ; User Verilog HDL File  ; H:/UROP research/verilog/Online_adder_test2/On_line_adder_test2.v     ;         ;
+; D_flipflop.v                     ; yes             ; User Verilog HDL File  ; H:/UROP research/verilog/Online_adder_test2/D_flipflop.v              ;         ;
+; full_adder.v                     ; yes             ; User Verilog HDL File  ; H:/UROP research/verilog/Online_adder_test2/full_adder.v              ;         ;
+; D_flipflop_with_initial.v        ; yes             ; User Verilog HDL File  ; H:/UROP research/verilog/Online_adder_test2/D_flipflop_with_initial.v ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -190,20 +191,20 @@ applicable agreement for further details.
 +--------------------------+------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                     ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------+--------------+
-; |On_line_adder_test2       ; 4 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 7    ; 0            ; |On_line_adder_test2                ;              ;
-;    |D_flipflop:D1|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D1  ;              ;
-;    |D_flipflop:D2|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D2  ;              ;
-;    |D_flipflop:D3|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D3  ;              ;
-;    |D_flipflop:D4|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D4  ;              ;
-;    |D_flipflop:D5|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D5  ;              ;
-;    |full_adder:FA1|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|full_adder:FA1 ;              ;
-;    |full_adder:FA2|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|full_adder:FA2 ;              ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                      ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------+--------------+
+; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                             ; Library Name ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------+--------------+
+; |On_line_adder_test2            ; 4 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 7    ; 0            ; |On_line_adder_test2                            ;              ;
+;    |D_flipflop:D3|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D3              ;              ;
+;    |D_flipflop:D4|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D4              ;              ;
+;    |D_flipflop:D5|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop:D5              ;              ;
+;    |D_flipflop_with_initial:D1| ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop_with_initial:D1 ;              ;
+;    |D_flipflop_with_initial:D2| ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|D_flipflop_with_initial:D2 ;              ;
+;    |full_adder:FA1|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|full_adder:FA1             ;              ;
+;    |full_adder:FA2|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |On_line_adder_test2|full_adder:FA2             ;              ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -237,18 +238,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Wed Jul 01 09:41:31 2015
+    Info: Processing started: Thu Jul 02 11:55:08 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Online_adder_test2 -c Online_adder_test2
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
-Info (12021): Found 1 design units, including 1 entities, in source file /altera/13.0/urop/urop research/verilog/urop_research/full_adder.v
-    Info (12023): Found entity 1: full_adder
-Info (12021): Found 1 design units, including 1 entities, in source file /altera/13.0/urop/urop research/verilog/urop_research/d_flipflop.v
-    Info (12023): Found entity 1: D_flipflop
-Info (12021): Found 1 design units, including 1 entities, in source file /altera/13.0/urop/urop research/verilog/urop_research/on_line_adder_test2.v
+Info (12021): Found 1 design units, including 1 entities, in source file on_line_adder_test2.v
     Info (12023): Found entity 1: On_line_adder_test2
+Info (12021): Found 1 design units, including 1 entities, in source file d_flipflop.v
+    Info (12023): Found entity 1: D_flipflop
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
+    Info (12023): Found entity 1: full_adder
+Info (12021): Found 1 design units, including 1 entities, in source file d_flipflop_with_initial.v
+    Info (12023): Found entity 1: D_flipflop_with_initial
 Info (12127): Elaborating entity "On_line_adder_test2" for the top level hierarchy
 Info (12128): Elaborating entity "full_adder" for hierarchy "full_adder:FA1"
-Info (12128): Elaborating entity "D_flipflop" for hierarchy "D_flipflop:D1"
+Info (12128): Elaborating entity "D_flipflop_with_initial" for hierarchy "D_flipflop_with_initial:D1"
+Info (12128): Elaborating entity "D_flipflop" for hierarchy "D_flipflop:D3"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -257,9 +261,9 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 6 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 397 megabytes
-    Info: Processing ended: Wed Jul 01 09:41:33 2015
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 413 megabytes
+    Info: Processing ended: Thu Jul 02 11:55:11 2015
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 
